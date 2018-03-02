@@ -13,7 +13,7 @@ def long_planeteer_calls(array)# code an argument here
   array.include? do |word|
     word.length > 3
   end
-  
+
   # Your code here
 end
 
