@@ -10,9 +10,7 @@ def summon_captain_planet(array)# code an argument here
 end
 
 def long_planeteer_calls(array)# code an argument here
-  array.include? do |word|
-    word.length > 3
-  end
+  array.include?(word.length > 3)
 
   # Your code here
 end
